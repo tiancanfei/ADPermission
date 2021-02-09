@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70CED83225D108FA0039962B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED83125D108FA0039962B /* AppDelegate.m */; };
+		70CED83525D108FA0039962B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED83425D108FA0039962B /* SceneDelegate.m */; };
+		70CED83825D108FA0039962B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED83725D108FA0039962B /* ViewController.m */; };
+		70CED83B25D108FA0039962B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CED83925D108FA0039962B /* Main.storyboard */; };
+		70CED83D25D108FD0039962B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CED83C25D108FD0039962B /* Assets.xcassets */; };
+		70CED84025D108FD0039962B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CED83E25D108FD0039962B /* LaunchScreen.storyboard */; };
+		70CED84325D108FD0039962B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED84225D108FD0039962B /* main.m */; };
+		70CED87725D109290039962B /* ADContactPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED84C25D109290039962B /* ADContactPermission.m */; };
+		70CED87825D109290039962B /* ADCalendarPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED85025D109290039962B /* ADCalendarPermission.m */; };
+		70CED87925D109290039962B /* ADMicrophonePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED85325D109290039962B /* ADMicrophonePermission.m */; };
+		70CED87A25D109290039962B /* ADCameraPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED85625D109290039962B /* ADCameraPermission.m */; };
+		70CED87B25D109290039962B /* ADLocationPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED85A25D109290039962B /* ADLocationPermission.m */; };
+		70CED87C25D109290039962B /* ADReminderPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED85C25D109290039962B /* ADReminderPermission.m */; };
+		70CED87D25D109290039962B /* ADPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED85E25D109290039962B /* ADPermission.m */; };
+		70CED87E25D109290039962B /* ADMotionPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED86125D109290039962B /* ADMotionPermission.m */; };
+		70CED87F25D109290039962B /* ADBluetoothPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED86325D109290039962B /* ADBluetoothPermission.m */; };
+		70CED88025D109290039962B /* ADSiriPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED86725D109290039962B /* ADSiriPermission.m */; };
+		70CED88125D109290039962B /* ADPermissionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED86925D109290039962B /* ADPermissionConst.m */; };
+		70CED88225D109290039962B /* ADMediaLibraryPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED86C25D109290039962B /* ADMediaLibraryPermission.m */; };
+		70CED88325D109290039962B /* ADPhotosPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED86F25D109290039962B /* ADPhotosPermission.m */; };
+		70CED88425D109290039962B /* ADSpeechRecognizerPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED87125D109290039962B /* ADSpeechRecognizerPermission.m */; };
+		70CED88525D109290039962B /* ADNotificationsPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CED87525D109290039962B /* ADNotificationsPermission.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70CED82D25D108FA0039962B /* ADPermission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADPermission.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CED83025D108FA0039962B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70CED83125D108FA0039962B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70CED83325D108FA0039962B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		70CED83425D108FA0039962B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		70CED83625D108FA0039962B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70CED83725D108FA0039962B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70CED83A25D108FA0039962B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70CED83C25D108FD0039962B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70CED83F25D108FD0039962B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70CED84125D108FD0039962B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CED84225D108FD0039962B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70CED84C25D109290039962B /* ADContactPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactPermission.m; sourceTree = "<group>"; };
+		70CED84D25D109290039962B /* ADContactPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactPermission.h; sourceTree = "<group>"; };
+		70CED84E25D109290039962B /* ADPermissionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPermissionConst.h; sourceTree = "<group>"; };
+		70CED85025D109290039962B /* ADCalendarPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCalendarPermission.m; sourceTree = "<group>"; };
+		70CED85125D109290039962B /* ADCalendarPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCalendarPermission.h; sourceTree = "<group>"; };
+		70CED85325D109290039962B /* ADMicrophonePermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMicrophonePermission.m; sourceTree = "<group>"; };
+		70CED85425D109290039962B /* ADMicrophonePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMicrophonePermission.h; sourceTree = "<group>"; };
+		70CED85625D109290039962B /* ADCameraPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCameraPermission.m; sourceTree = "<group>"; };
+		70CED85725D109290039962B /* ADCameraPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCameraPermission.h; sourceTree = "<group>"; };
+		70CED85925D109290039962B /* ADLocationPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLocationPermission.h; sourceTree = "<group>"; };
+		70CED85A25D109290039962B /* ADLocationPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLocationPermission.m; sourceTree = "<group>"; };
+		70CED85C25D109290039962B /* ADReminderPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADReminderPermission.m; sourceTree = "<group>"; };
+		70CED85D25D109290039962B /* ADReminderPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADReminderPermission.h; sourceTree = "<group>"; };
+		70CED85E25D109290039962B /* ADPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPermission.m; sourceTree = "<group>"; };
+		70CED86025D109290039962B /* ADMotionPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMotionPermission.h; sourceTree = "<group>"; };
+		70CED86125D109290039962B /* ADMotionPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMotionPermission.m; sourceTree = "<group>"; };
+		70CED86325D109290039962B /* ADBluetoothPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBluetoothPermission.m; sourceTree = "<group>"; };
+		70CED86425D109290039962B /* ADBluetoothPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBluetoothPermission.h; sourceTree = "<group>"; };
+		70CED86525D109290039962B /* ADPermissionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPermissionProtocol.h; sourceTree = "<group>"; };
+		70CED86725D109290039962B /* ADSiriPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSiriPermission.m; sourceTree = "<group>"; };
+		70CED86825D109290039962B /* ADSiriPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSiriPermission.h; sourceTree = "<group>"; };
+		70CED86925D109290039962B /* ADPermissionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPermissionConst.m; sourceTree = "<group>"; };
+		70CED86B25D109290039962B /* ADMediaLibraryPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMediaLibraryPermission.h; sourceTree = "<group>"; };
+		70CED86C25D109290039962B /* ADMediaLibraryPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMediaLibraryPermission.m; sourceTree = "<group>"; };
+		70CED86E25D109290039962B /* ADPhotosPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPhotosPermission.h; sourceTree = "<group>"; };
+		70CED86F25D109290039962B /* ADPhotosPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPhotosPermission.m; sourceTree = "<group>"; };
+		70CED87125D109290039962B /* ADSpeechRecognizerPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSpeechRecognizerPermission.m; sourceTree = "<group>"; };
+		70CED87225D109290039962B /* ADSpeechRecognizerPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSpeechRecognizerPermission.h; sourceTree = "<group>"; };
+		70CED87425D109290039962B /* ADNotificationsPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNotificationsPermission.h; sourceTree = "<group>"; };
+		70CED87525D109290039962B /* ADNotificationsPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNotificationsPermission.m; sourceTree = "<group>"; };
+		70CED87625D109290039962B /* ADPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPermission.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CED82A25D108FA0039962B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70CED82425D108FA0039962B = {
+			isa = PBXGroup;
+			children = (
+				70CED82F25D108FA0039962B /* ADPermission */,
+				70CED82E25D108FA0039962B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70CED82E25D108FA0039962B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CED82D25D108FA0039962B /* ADPermission.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70CED82F25D108FA0039962B /* ADPermission */ = {
+			isa = PBXGroup;
+			children = (
+				70CED84A25D109290039962B /* ADPermission */,
+				70CED83025D108FA0039962B /* AppDelegate.h */,
+				70CED83125D108FA0039962B /* AppDelegate.m */,
+				70CED83325D108FA0039962B /* SceneDelegate.h */,
+				70CED83425D108FA0039962B /* SceneDelegate.m */,
+				70CED83625D108FA0039962B /* ViewController.h */,
+				70CED83725D108FA0039962B /* ViewController.m */,
+				70CED83925D108FA0039962B /* Main.storyboard */,
+				70CED83C25D108FD0039962B /* Assets.xcassets */,
+				70CED83E25D108FD0039962B /* LaunchScreen.storyboard */,
+				70CED84125D108FD0039962B /* Info.plist */,
+				70CED84225D108FD0039962B /* main.m */,
+			);
+			path = ADPermission;
+			sourceTree = "<group>";
+		};
+		70CED84A25D109290039962B /* ADPermission */ = {
+			isa = PBXGroup;
+			children = (
+				70CED87625D109290039962B /* ADPermission.h */,
+				70CED85E25D109290039962B /* ADPermission.m */,
+				70CED84E25D109290039962B /* ADPermissionConst.h */,
+				70CED86925D109290039962B /* ADPermissionConst.m */,
+				70CED86525D109290039962B /* ADPermissionProtocol.h */,
+				70CED84D25D109290039962B /* ADContactPermission.h */,
+				70CED84C25D109290039962B /* ADContactPermission.m */,
+				70CED85125D109290039962B /* ADCalendarPermission.h */,
+				70CED85025D109290039962B /* ADCalendarPermission.m */,
+				70CED85425D109290039962B /* ADMicrophonePermission.h */,
+				70CED85325D109290039962B /* ADMicrophonePermission.m */,
+				70CED85725D109290039962B /* ADCameraPermission.h */,
+				70CED85625D109290039962B /* ADCameraPermission.m */,
+				70CED85925D109290039962B /* ADLocationPermission.h */,
+				70CED85A25D109290039962B /* ADLocationPermission.m */,
+				70CED85D25D109290039962B /* ADReminderPermission.h */,
+				70CED85C25D109290039962B /* ADReminderPermission.m */,
+				70CED86025D109290039962B /* ADMotionPermission.h */,
+				70CED86125D109290039962B /* ADMotionPermission.m */,
+				70CED86425D109290039962B /* ADBluetoothPermission.h */,
+				70CED86325D109290039962B /* ADBluetoothPermission.m */,
+				70CED86825D109290039962B /* ADSiriPermission.h */,
+				70CED86725D109290039962B /* ADSiriPermission.m */,
+				70CED86B25D109290039962B /* ADMediaLibraryPermission.h */,
+				70CED86C25D109290039962B /* ADMediaLibraryPermission.m */,
+				70CED86E25D109290039962B /* ADPhotosPermission.h */,
+				70CED86F25D109290039962B /* ADPhotosPermission.m */,
+				70CED87225D109290039962B /* ADSpeechRecognizerPermission.h */,
+				70CED87125D109290039962B /* ADSpeechRecognizerPermission.m */,
+				70CED87425D109290039962B /* ADNotificationsPermission.h */,
+				70CED87525D109290039962B /* ADNotificationsPermission.m */,
+			);
+			path = ADPermission;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CED82C25D108FA0039962B /* ADPermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CED84625D108FD0039962B /* Build configuration list for PBXNativeTarget "ADPermission" */;
+			buildPhases = (
+				70CED82925D108FA0039962B /* Sources */,
+				70CED82A25D108FA0039962B /* Frameworks */,
+				70CED82B25D108FA0039962B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADPermission;
+			productName = ADPermission;
+			productReference = 70CED82D25D108FA0039962B /* ADPermission.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CED82525D108FA0039962B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					70CED82C25D108FA0039962B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 70CED82825D108FA0039962B /* Build configuration list for PBXProject "ADPermission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CED82425D108FA0039962B;
+			productRefGroup = 70CED82E25D108FA0039962B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CED82C25D108FA0039962B /* ADPermission */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CED82B25D108FA0039962B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CED84025D108FD0039962B /* LaunchScreen.storyboard in Resources */,
+				70CED83D25D108FD0039962B /* Assets.xcassets in Resources */,
+				70CED83B25D108FA0039962B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CED82925D108FA0039962B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CED87825D109290039962B /* ADCalendarPermission.m in Sources */,
+				70CED83825D108FA0039962B /* ViewController.m in Sources */,
+				70CED87F25D109290039962B /* ADBluetoothPermission.m in Sources */,
+				70CED87E25D109290039962B /* ADMotionPermission.m in Sources */,
+				70CED83225D108FA0039962B /* AppDelegate.m in Sources */,
+				70CED87B25D109290039962B /* ADLocationPermission.m in Sources */,
+				70CED88425D109290039962B /* ADSpeechRecognizerPermission.m in Sources */,
+				70CED87C25D109290039962B /* ADReminderPermission.m in Sources */,
+				70CED88525D109290039962B /* ADNotificationsPermission.m in Sources */,
+				70CED87D25D109290039962B /* ADPermission.m in Sources */,
+				70CED84325D108FD0039962B /* main.m in Sources */,
+				70CED88025D109290039962B /* ADSiriPermission.m in Sources */,
+				70CED83525D108FA0039962B /* SceneDelegate.m in Sources */,
+				70CED87A25D109290039962B /* ADCameraPermission.m in Sources */,
+				70CED87925D109290039962B /* ADMicrophonePermission.m in Sources */,
+				70CED88125D109290039962B /* ADPermissionConst.m in Sources */,
+				70CED87725D109290039962B /* ADContactPermission.m in Sources */,
+				70CED88325D109290039962B /* ADPhotosPermission.m in Sources */,
+				70CED88225D109290039962B /* ADMediaLibraryPermission.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70CED83925D108FA0039962B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CED83A25D108FA0039962B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70CED83E25D108FD0039962B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CED83F25D108FD0039962B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70CED84425D108FD0039962B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70CED84525D108FD0039962B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70CED84725D108FD0039962B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YPP9C225DR;
+				INFOPLIST_FILE = ADPermission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ADPermission;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70CED84825D108FD0039962B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YPP9C225DR;
+				INFOPLIST_FILE = ADPermission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ADPermission;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CED82825D108FA0039962B /* Build configuration list for PBXProject "ADPermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CED84425D108FD0039962B /* Debug */,
+				70CED84525D108FD0039962B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CED84625D108FD0039962B /* Build configuration list for PBXNativeTarget "ADPermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CED84725D108FD0039962B /* Debug */,
+				70CED84825D108FD0039962B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70CED82525D108FA0039962B /* Project object */;
+}
