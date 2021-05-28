@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         = "ADPermission"
-	s.version      = "0.0.3"
+	s.version      = "0.0.4"
 	s.summary      = "iOS权限请求，包含蓝牙，通讯录，定位，麦克风，日历，提醒，照相机，Siri，多媒体，相册，通知，语音识别"
 	s.description  = <<-DESC
 	                 iOS权限请求，包含蓝牙，通讯录，定位，麦克风，日历，提醒，照相机，Siri，多媒体，相册，通知，语音识别

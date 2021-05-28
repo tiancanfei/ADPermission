@@ -141,6 +141,7 @@
 - (CBPeripheralManager *)bluetoothManager {
     if (!_bluetoothManager) {
         _bluetoothManager = [[CBPeripheralManager alloc] initWithDelegate:self queue:nil options:@{CBPeripheralManagerOptionShowPowerAlertKey:@(NO)}];
+        _bluetoothManager.delegate = self;
     }
     return _bluetoothManager;
 }
