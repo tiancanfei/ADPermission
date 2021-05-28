@@ -21,6 +21,8 @@
 
 @implementation ADNotificationsPermission
 
+#ifdef ADPERMISSION_NOTIFICATIONS
+
 #pragma mark - 自定义方法
 
 #pragma mark 结果处理
@@ -119,5 +121,7 @@
     UNAuthorizationOptions options = (UNAuthorizationOptions)[self.params[ADNotificationsOptionsKey] integerValue];
     return options;
 }
+
+#endif
 
 @end

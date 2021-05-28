@@ -58,8 +58,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 蓝牙
 @property (nonatomic, strong, readonly) ADBluetoothPermission *bluetoothPermission;
 
+@property (nonatomic, strong, readonly) ADMediaLibraryPermission *mediaLibraryPermission;
+
 /// 通知
 @property (nonatomic, strong, readonly) ADNotificationsPermission *notificationsPermission;
+
++ (instancetype) requestWithType:(ADPermissionType) type
+                          params:(NSDictionary * _Nullable)params;
 
 - (void) requestWithType:(ADPermissionType) type
                   params:(NSDictionary * _Nullable)params;

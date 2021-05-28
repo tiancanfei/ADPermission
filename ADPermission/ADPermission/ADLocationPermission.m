@@ -26,6 +26,8 @@
 
 @implementation ADLocationPermission
 
+#ifdef ADPERMISSION_LOCATION
+
 #pragma mark - 自定义方法
 
 #pragma mark 结果处理
@@ -201,5 +203,7 @@
     }
     return _locationManager;
 }
+
+#endif
 
 @end

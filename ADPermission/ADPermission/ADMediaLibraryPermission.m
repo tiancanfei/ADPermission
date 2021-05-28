@@ -9,6 +9,8 @@
 
 @implementation ADMediaLibraryPermission
 
+#ifdef ADPERMISSION_MEDIALIBRARY
+
 #pragma mark - 自定义方法
 
 #pragma mark 结果处理
@@ -98,5 +100,7 @@
     
     return statusOfPermission;
 }
+
+#endif
 
 @end

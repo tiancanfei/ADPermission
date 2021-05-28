@@ -75,6 +75,7 @@
 		70CED87425D109290039962B /* ADNotificationsPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNotificationsPermission.h; sourceTree = "<group>"; };
 		70CED87525D109290039962B /* ADNotificationsPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNotificationsPermission.m; sourceTree = "<group>"; };
 		70CED87625D109290039962B /* ADPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPermission.h; sourceTree = "<group>"; };
+		70FD8EFF26609E2800C15112 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 		70CED82425D108FA0039962B = {
 			isa = PBXGroup;
 			children = (
+				70FD8EFF26609E2800C15112 /* PrefixHeader.pch */,
 				70CED82F25D108FA0039962B /* ADPermission */,
 				70CED82E25D108FA0039962B /* Products */,
 			);
@@ -393,6 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPP9C225DR;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = ADPermission/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,6 +414,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPP9C225DR;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = ADPermission/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

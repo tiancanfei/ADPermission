@@ -30,6 +30,7 @@ typedef enum : NSUInteger {
     ADPermissionTypeCalendar,
     ADPermissionTypeReminder,
     ADPermissionTypeBluetooth,
+    ADPermissionTypeMediaLibrary,
     ADPermissionTypeNotifications
 } ADPermissionType;
 

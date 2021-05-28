@@ -19,6 +19,8 @@
 
 @implementation ADMotionPermission
 
+#ifdef ADPERMISSION_MOTION
+
 #pragma mark - 自定义方法
 
 #pragma mark 结果处理
@@ -126,5 +128,7 @@
     
     return status;
 }
+
+#endif
 
 @end

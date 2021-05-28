@@ -21,6 +21,8 @@
 
 @implementation ADBluetoothPermission
 
+#ifdef ADPERMISSION_BLUETOOTH
+
 #pragma mark - 自定义方法
 
 #pragma mark 结果处理
@@ -142,5 +144,7 @@
     }
     return _bluetoothManager;
 }
+
+#endif
 
 @end

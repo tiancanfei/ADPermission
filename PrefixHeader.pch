@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  ADPermission
+//
+//  Created by ade on 2021/5/28.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define ADPERMISSION_CONTACT
+#define ADPERMISSION_SIRI
+#define ADPERMISSION_SPEECHRECONGNIZER
+#define ADPERMISSION_CALENDAR
+#define ADPERMISSION_MICROPHONE
+#define ADPERMISSION_CAMERA
+#define ADPERMISSION_LOCATION
+#define ADPERMISSION_REMINDER
+#define ADPERMISSION_MOTION
+#define ADPERMISSION_BLUETOOTH
+#define ADPERMISSION_MEDIALIBRARY
+#define ADPERMISSION_PHOTOS
+#define ADPERMISSION_NOTIFICATIONS
+
+#endif /* PrefixHeader_pch */

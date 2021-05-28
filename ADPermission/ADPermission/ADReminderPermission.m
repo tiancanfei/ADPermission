@@ -9,6 +9,8 @@
 
 @implementation ADReminderPermission
 
+#ifdef ADPERMISSION_REMINDER
+
 #pragma mark 结果处理
 /// 结果处理
 - (void) completeWithResult:(NSDictionary *)result {
@@ -103,5 +105,7 @@
     
     return statusOfPermission;
 }
+
+#endif
 
 @end
