@@ -13,6 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ADCameraPermission : NSObject<ADPermissionProtocol>
 
+/// 是否已经明确授权
+@property (nonatomic, assign) BOOL isAuthorized;
+
+/// 是否已经明确拒绝授权
+@property (nonatomic, assign) BOOL isDenied;
+
 @property (nonatomic, assign) ADPermissionStatus status;
 
 @property (nonatomic, copy, nullable) ADPermissionRequestResult complete;

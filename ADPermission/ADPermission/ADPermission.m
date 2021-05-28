@@ -72,7 +72,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeContact:
         {
 #ifdef ADPERMISSION_CONTACT
-            _contactPermission = [[ADContactPermission alloc] init];
             [self.contactPermission requestWithType:type params:params];
 #endif
         }
@@ -80,7 +79,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeCamera:
         {
 #ifdef ADPERMISSION_CAMERA
-            _cameraPermission = [[ADCameraPermission alloc] init];
             [self.cameraPermission requestWithType:type params:params];
 #endif
         }
@@ -88,7 +86,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypePhotos:
         {
 #ifdef ADPERMISSION_PHOTOS
-            _photosPermission = [[ADPhotosPermission alloc] init];
             [self.photosPermission requestWithType:type params:params];
 #endif
         }
@@ -96,7 +93,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeMicrophone:
         {
 #ifdef ADPERMISSION_MICROPHONE
-            _microphonePermission = [[ADMicrophonePermission alloc] init];
             [self.microphonePermission requestWithType:type params:params];
 #endif
         }
@@ -104,7 +100,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeLocationWhenInUse:
         {
 #ifdef ADPERMISSION_LOCATION
-            _locationPermission = [[ADLocationPermission alloc] init];
             [self.locationPermission requestWithType:type params:params];
 #endif
         }
@@ -112,7 +107,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeLocationAlways:
         {
 #ifdef ADPERMISSION_LOCATION
-            _locationPermission = [[ADLocationPermission alloc] init];
             [self.locationPermission requestWithType:type params:params];
 #endif
         }
@@ -120,7 +114,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeMotion:
         {
 #ifdef ADPERMISSION_MOTION
-            _motionPermission = [[ADMotionPermission alloc] init];
             [self.motionPermission requestWithType:type params:params];
 #endif
         }
@@ -128,7 +121,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeSiri:
         {
 #ifdef ADPERMISSION_SIRI
-            _siriPermission = [[ADSiriPermission alloc] init];
             [self.siriPermission requestWithType:type params:params];
 #endif
         }
@@ -136,7 +128,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeSpeechRecognizer:
         {
 #ifdef ADPERMISSION_SPEECHRECONGNIZER
-            _speechRecognizerPermission = [[ADSpeechRecognizerPermission alloc] init];
             [self.speechRecognizerPermission requestWithType:type params:params];
 #endif
         }
@@ -144,7 +135,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeCalendar:
         {
 #ifdef ADPERMISSION_CALENDAR
-            _calendarPermission = [[ADCalendarPermission alloc] init];
             [self.calendarPermission requestWithType:type params:params];
 #endif
         }
@@ -152,7 +142,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeReminder:
         {
 #ifdef ADPERMISSION_REMINDER
-            _reminderPermission = [[ADReminderPermission alloc] init];
             [self.reminderPermission requestWithType:type params:params];
 #endif
         }
@@ -160,7 +149,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeMediaLibrary:
         {
 #ifdef ADPERMISSION_MEDIALIBRARY
-            _mediaLibraryPermission = [[ADMediaLibraryPermission alloc] init];
             [self.mediaLibraryPermission requestWithType:type params:params];
 #endif
         }
@@ -168,7 +156,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeBluetooth:
         {
 #ifdef ADPERMISSION_BLUETOOTH
-            _bluetoothPermission = [[ADBluetoothPermission alloc] init];
             [self.bluetoothPermission requestWithType:type params:params];
 #endif
         }
@@ -176,7 +163,6 @@ ADPermission *_adPermissionShareInstance;
         case ADPermissionTypeNotifications:
         {
 #ifdef ADPERMISSION_NOTIFICATIONS
-            _notificationsPermission = [[ADNotificationsPermission alloc] init];
             [self.notificationsPermission requestWithType:type params:params];
 #endif
         }
@@ -186,5 +172,151 @@ ADPermission *_adPermissionShareInstance;
             break;
     }
 }
+
+#pragma mark - setters getters
+
+- (ADContactPermission *)contactPermission {
+#ifdef ADPERMISSION_CONTACT
+    if (!_contactPermission) {
+        _contactPermission = [[ADContactPermission alloc] init];
+    }
+#else
+    _contactPermission = nil;
+#endif
+    return _contactPermission;
+}
+
+- (ADCameraPermission *) cameraPermission {
+#ifdef ADPERMISSION_CAMERA
+    if (!_cameraPermission) {
+        _cameraPermission = [[ADCameraPermission alloc] init];
+    }
+#else
+    _cameraPermission = nil;
+#endif
+    return _cameraPermission;
+}
+
+- (ADPhotosPermission *) photosPermission {
+#ifdef ADPERMISSION_PHOTOS
+    if (!_photosPermission) {
+        _photosPermission = [[ADPhotosPermission alloc] init];
+    }
+#else
+    _photosPermission = nil;
+#endif
+    return _photosPermission;
+}
+
+- (ADMicrophonePermission *) microphonePermission {
+#ifdef ADPERMISSION_MICROPHONE
+    if (!_microphonePermission) {
+        _microphonePermission = [[ADMicrophonePermission alloc] init];
+    }
+#else
+    _microphonePermission = nil;
+#endif
+    return _microphonePermission;
+}
+
+- (ADLocationPermission *) locationPermission {
+#ifdef ADPERMISSION_LOCATION
+    if (!_locationPermission) {
+        _locationPermission = [[ADLocationPermission alloc] init];
+    }
+#else
+    _locationPermission = nil;
+#endif
+    return _locationPermission;
+}
+
+- (ADMotionPermission *) motionPermission {
+#ifdef ADPERMISSION_MOTION
+    if (!_motionPermission) {
+        _motionPermission = [[ADMotionPermission alloc] init];
+    }
+#else
+    _motionPermission = nil;
+#endif
+    return _motionPermission;
+}
+
+- (ADSiriPermission *) siriPermission {
+#ifdef ADPERMISSION_SIRI
+    if (!_siriPermission) {
+        _siriPermission = [[ADSiriPermission alloc] init];
+    }
+#else
+    _siriPermission = nil;
+#endif
+    return _siriPermission;
+}
+
+- (ADSpeechRecognizerPermission *) speechRecognizerPermission {
+#ifdef ADPERMISSION_SPEECHRECONGNIZER
+    if (!_speechRecognizerPermission) {
+        _speechRecognizerPermission = [[ADSpeechRecognizerPermission alloc] init];
+    }
+#else
+    _speechRecognizerPermission = nil;
+#endif
+    return _speechRecognizerPermission;
+}
+
+- (ADCalendarPermission *) calendarPermission {
+#ifdef ADPERMISSION_CALENDAR
+    if (!_calendarPermission) {
+        _calendarPermission = [[ADCalendarPermission alloc] init];
+    }
+#else
+    _calendarPermission = nil;
+#endif
+    return _calendarPermission;
+}
+
+- (ADReminderPermission *) reminderPermission {
+#ifdef ADPERMISSION_REMINDER
+    if (!_reminderPermission) {
+        _reminderPermission = [[ADReminderPermission alloc] init];
+    }
+#else
+    _reminderPermission = nil;
+#endif
+    return _reminderPermission;
+}
+
+- (ADBluetoothPermission *) bluetoothPermission {
+#ifdef ADPERMISSION_BLUETOOTH
+    if (!_bluetoothPermission) {
+        _bluetoothPermission = [[ADBluetoothPermission alloc] init];
+    }
+#else
+    _bluetoothPermission = nil;
+#endif
+    return _bluetoothPermission;
+}
+
+- (ADMediaLibraryPermission *) mediaLibraryPermission {
+#ifdef ADPERMISSION_MEDIALIBRARY
+    if (!_mediaLibraryPermission) {
+        _mediaLibraryPermission = [[ADMediaLibraryPermission alloc] init];
+    }
+#else
+    _mediaLibraryPermission = nil;
+#endif
+    return _mediaLibraryPermission;
+}
+
+- (ADNotificationsPermission *) notificationsPermission {
+#ifdef ADPERMISSION_NOTIFICATIONS
+    if (!_notificationsPermission) {
+        _notificationsPermission = [[ADNotificationsPermission alloc] init];
+    }
+#else
+    _notificationsPermission = nil;
+#endif
+    return _notificationsPermission;
+}
+
 
 @end

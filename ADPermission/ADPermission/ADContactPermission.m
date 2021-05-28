@@ -105,6 +105,15 @@
     return statusOfPermission;
 }
 
+- (BOOL)isAuthorized {
+    return ADPermissionStatusAuthorized == self.status;
+}
+
+- (BOOL)isDenied {
+    return ADPermissionStatusDenied == self.status;
+}
+
+
 #endif
 
 @end

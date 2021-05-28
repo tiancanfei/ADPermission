@@ -12,9 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ADPermissionProtocol <NSObject>
 
-@property (nonatomic, assign) ADPermissionStatus status;
+/// 是否已经明确授权
+@property (nonatomic, assign) BOOL isAuthorized;
 
-@optional
+/// 是否已经明确拒绝授权
+@property (nonatomic, assign) BOOL isDenied;
+
+@property (nonatomic, assign) ADPermissionStatus status;
 
 @property (nonatomic, copy, nullable) ADPermissionRequestResult complete;
 
